@@ -1,4 +1,7 @@
 # badass-ens
+
+How we created [badass.domains](https://badass.domains)
+
 # How we set up ENS for decentralized subdomains on our [Handshake](https://handshake.org) TLD .badass
 
 ## Why do this?
