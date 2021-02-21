@@ -6,7 +6,7 @@ How we created [badass.domains](https://badass.domains)
 
 ## Why do this?
 
-ENS uses the "imaginary" .eth TLD which is not grounded in any root zone.  The .eth TLD is the ISO for Ethiopia, so it probably won't be included in the ICANN root zone.  It is blacklisted on Handshake, so it could be used on Handshake with a plugin.  Other "decentralized" domains like Unstoppable Domains (.crypto or .zil) and Namecoin (.bit) also use imaginary TLDs that are not grounded in any root zone.  If they decide and are able to get the TLD in the ICANN root zone, it is centralized and maganed by ICANN.
+ENS uses the orphan .eth TLD which is not anchored in any root zone.  The .eth TLD is the ISO for Ethiopia, so it probably won't be included in the ICANN root zone.  It is blacklisted on Handshake, so it could be used on Handshake with a plugin.  Other "decentralized" domains like Unstoppable Domains (.crypto or .zil) and Namecoin (.bit) also use orphan TLDs that are not anchored in any root zone.  If they decide and are able to get the TLD in the ICANN root zone, it is centralized and maganed by ICANN.
 
 By forking ENS and using it on a TLD that is grounded in a decentralized root zone (Handshake), we create truly decentralized subdomains.
 
