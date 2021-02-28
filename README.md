@@ -30,7 +30,11 @@ In order to resolve .badass domains, you will need to run `hsd` with a plugin th
 
 5. Remove trust
 
-The  .eth version of ENS has [keyholders](https://www.reddit.com/r/ethereum/comments/5z3agy/ens_root_keyholders_announced/), so it is not truly decentralized.  In order to make .badass truly badass (and provably decentralized) we have set the owner of the ENS contract to a burn address 0x0. (put command, more info here)
+The  .eth version of ENS has [keyholders](https://www.reddit.com/r/ethereum/comments/5z3agy/ens_root_keyholders_announced/), so it is not truly decentralized.  In order to make .badass truly badass (and provably decentralized) we have set the owner of the ENS contract to a burn address 0x0. We used the following geth command for this:
+
+```
+ENSInstance.setOwner("0x0000000000000000000000000000000000000000","0x0000000000000000000000000000000000000000", {from: eth.accounts[0], gasPrice: 125000000000})
+```
 
 We have also done the same with the .badass TLD on Handshake, making it unable to be updated, but renewable by anyone, using the following:
 
@@ -39,6 +43,8 @@ OPTYPE
 0x08 // RENEW
 OPEQUALVERIFY
 ```
+
+You can see an [implementation of this here](https://github.com/handshake-org/hsd/pull/567).
 
 ## Notes
 
